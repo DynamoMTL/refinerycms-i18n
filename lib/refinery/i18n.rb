@@ -165,7 +165,7 @@ module Refinery
         @frontend_locales = nil
 
         self.set_default_locale!
-        self.ensure_locales_up_to_date!
+        # self.ensure_locales_up_to_date!
       end
 
       def ensure_locales_up_to_date!
@@ -194,7 +194,25 @@ module Refinery
 
     @built_in_locales = {
       :en => 'English',
-      :fr => 'Français'}
+      :fr => 'Français',
+      :nl => 'Nederlands',
+      :'pt-BR' => 'Português',
+      :da => 'Dansk',
+      :nb => 'Norsk Bokmål',
+      :sl => 'Slovenian',
+      :es => 'Español',
+      :it => 'Italiano',
+      :de => 'Deutsch',
+      :lv => 'Latviski',
+      :ru => 'Русский',
+      :sv => 'Svenska',
+      :pl => 'Polski',
+      :'zh-CN' => 'Simplified Chinese',
+      :'zh-TW' => 'Traditional Chinese',
+      :el => 'Ελληνικά',
+      :rs => 'Srpski',
+      :cs => 'Česky'
+    }
   end
 end
 
